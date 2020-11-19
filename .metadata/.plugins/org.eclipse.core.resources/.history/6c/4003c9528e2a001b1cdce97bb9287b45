@@ -1,0 +1,32 @@
+package com.thirdware.day2.assignment;
+
+public abstract class Vehicle {
+	
+	private String engine;
+	private String vehicleType;
+	
+	public String getEngine() {
+		return engine;
+	}
+	
+	public void setEngine(String engine) {
+		this.engine = engine;
+	}
+	
+	public void start() {
+		if(engine == "ON") {
+			System.out.println(this.vehicleType+" Starts");
+		}else {
+			System.out.println("Engine is Off");
+		}
+	}
+	
+	public void stop() {
+		
+	}
+	
+	public abstract void gas();
+	
+	public abstract void noOfWheels();
+	
+}

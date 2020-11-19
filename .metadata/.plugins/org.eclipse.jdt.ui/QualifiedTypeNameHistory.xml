@@ -6,4 +6,5 @@
     <fullyQualifiedTypeName name="com.thirdware.day2.assignment.Vehicle"/>
     <fullyQualifiedTypeName name="com.thirdware.day2.assignment.Bike"/>
     <fullyQualifiedTypeName name="com.thirdware.day2.assignment.OperatorsEncapsulation"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
 </qualifiedTypeNameHistroy>

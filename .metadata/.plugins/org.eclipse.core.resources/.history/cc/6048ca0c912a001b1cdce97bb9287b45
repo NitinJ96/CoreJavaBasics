@@ -1,0 +1,19 @@
+package com.thirdware.day2.assignment;
+
+public class VehicleDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Car car = new Car();
+		car.setEngine("ON");
+		car.setGas("Diesel");
+		
+		
+		Bike bike = new Bike();
+		bike.setEngine("ON");
+		bike.setGas("Petrol");
+		
+		
+	}
+
+}
