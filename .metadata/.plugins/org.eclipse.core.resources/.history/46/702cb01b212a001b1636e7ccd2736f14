@@ -1,0 +1,7 @@
+package com.thirdware.day2;
+
+public class Encapsulation {
+	private String name = "Nitin";
+	private int age = 24;
+	
+}

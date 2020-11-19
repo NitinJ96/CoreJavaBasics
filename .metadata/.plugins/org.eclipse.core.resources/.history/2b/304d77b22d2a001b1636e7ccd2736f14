@@ -1,0 +1,16 @@
+package com.thirdware.day2.assignment;
+
+public class ShapeDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		 Triangle triangle = new Triangle();
+		 
+		 triangle.setBreadth(15);
+		 triangle.setLength(20);
+		 System.out.println("Area of Triangle is: "+triangle.getArea());
+
+	}
+
+}

@@ -1,0 +1,28 @@
+package com.fita.corejavabasics;
+
+public class ArithmeticOperationObject {
+	public static void main(String[] args) {
+		
+		ArithmeticOperationObject object = new ArithmeticOperationObject();
+		
+		
+	}
+	
+	public void addition() {
+		System.out.println("Addition: "+(a+b));
+	}
+	public void subtraction() {
+		System.out.println("Subtraction: "+(a+b));
+	}
+	public void multiplication() {
+		System.out.println("Multiplication: "+(a+b));
+	}
+	public void division() {
+		System.out.println("Division: "+(a+b));
+	}
+	public void modulus() {
+		System.out.println("Modulus: "+(a+b));
+	}
+
+
+}
