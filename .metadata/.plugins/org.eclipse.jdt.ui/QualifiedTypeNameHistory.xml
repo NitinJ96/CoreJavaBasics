@@ -7,4 +7,16 @@
     <fullyQualifiedTypeName name="com.thirdware.day2.assignment.Bike"/>
     <fullyQualifiedTypeName name="com.thirdware.day2.assignment.OperatorsEncapsulation"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="com.thirdware.day3.assignment.IShape"/>
+    <fullyQualifiedTypeName name="com.thirdware.day3.assignmentInterface.IShape"/>
+    <fullyQualifiedTypeName name="com.thirdware.assignmentInterface.Rectangle"/>
+    <fullyQualifiedTypeName name="com.thirdware.multipleInheritance.Thirdware"/>
+    <fullyQualifiedTypeName name="com.thirdware.multilevelInheritance.Vehicle"/>
+    <fullyQualifiedTypeName name="com.thirdware.multilevelInheritance.Jaguar"/>
+    <fullyQualifiedTypeName name="com.thirdware.POJO.Employee"/>
+    <fullyQualifiedTypeName name="com.thirdware.hierarchicalInheritance.DhirubhaiAmbani"/>
+    <fullyQualifiedTypeName name="com.thirdware.hierarchicalInheritance.AnilAmbani"/>
+    <fullyQualifiedTypeName name="com.thirdware.hierarchicalInheritance.MukeshAmbani"/>
+    <fullyQualifiedTypeName name="com.thirdware.multipleInheritance.MobilePhone"/>
+    <fullyQualifiedTypeName name="com.thirdware.multipleInheritance.Holograph"/>
 </qualifiedTypeNameHistroy>
