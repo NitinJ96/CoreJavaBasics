@@ -1,4 +1,4 @@
-package com.thirdware.assignmentInterface;
+package com.thirdware.assignmentinterface;
 
 public interface IShape {
 	

@@ -1,4 +1,4 @@
-package com.thirdware.hierarchicalInheritance;
+package com.thirdware.hierarchicalinheritance;
 
 public class HierarchicalDriver {
 

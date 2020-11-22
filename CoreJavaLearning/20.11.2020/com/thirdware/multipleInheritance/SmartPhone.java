@@ -1,4 +1,4 @@
-package com.thirdware.multipleInheritance;
+package com.thirdware.multipleinheritance;
 
 public class SmartPhone extends MobilePhone implements Holograph {
 	

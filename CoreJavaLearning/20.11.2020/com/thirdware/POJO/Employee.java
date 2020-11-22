@@ -1,4 +1,4 @@
-package com.thirdware.POJO;
+package com.thirdware.pojo;
 
 public class Employee {
 	

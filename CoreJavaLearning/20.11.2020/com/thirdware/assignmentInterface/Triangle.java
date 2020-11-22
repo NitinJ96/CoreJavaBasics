@@ -1,4 +1,4 @@
-package com.thirdware.assignmentInterface;
+package com.thirdware.assignmentinterface;
 
 public class Triangle implements IShape {
 	private double sideA, sideB, sideC;

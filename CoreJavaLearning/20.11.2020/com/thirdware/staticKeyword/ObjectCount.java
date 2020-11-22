@@ -1,8 +1,12 @@
-package com.thirdware.staticKeyword;
+package com.thirdware.statickeyword;
 
 public class ObjectCount {
 	
 	public static int objectCount;
+	
+//	private ObjectCount() {
+//		objectCount = 1;
+//	}
 	
 	public ObjectCount() {
 		this.objectCount++;
@@ -14,10 +18,10 @@ public class ObjectCount {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		ObjectCount sample = new ObjectCount();
+		new ObjectCount();
 		System.out.println("Object Count: "+getObjectCount());
-		ObjectCount sample2 = new ObjectCount();
-		System.out.println("Object Count: "+getObjectCount());
+//		ObjectCount sample2 = new ObjectCount();
+//		System.out.println("Object Count: "+getObjectCount());
 	}
 
 }

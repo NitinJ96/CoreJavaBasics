@@ -6,7 +6,6 @@
     <fullyQualifiedTypeName name="com.thirdware.day2.assignment.Vehicle"/>
     <fullyQualifiedTypeName name="com.thirdware.day2.assignment.Bike"/>
     <fullyQualifiedTypeName name="com.thirdware.day2.assignment.OperatorsEncapsulation"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="com.thirdware.day3.assignment.IShape"/>
     <fullyQualifiedTypeName name="com.thirdware.day3.assignmentInterface.IShape"/>
     <fullyQualifiedTypeName name="com.thirdware.assignmentInterface.Rectangle"/>
@@ -19,4 +18,16 @@
     <fullyQualifiedTypeName name="com.thirdware.hierarchicalInheritance.MukeshAmbani"/>
     <fullyQualifiedTypeName name="com.thirdware.multipleInheritance.MobilePhone"/>
     <fullyQualifiedTypeName name="com.thirdware.multipleInheritance.Holograph"/>
+    <fullyQualifiedTypeName name="com.thirdware.conditionalif.LeapYear"/>
+    <fullyQualifiedTypeName name="java.security.DrbgParameters.NextBytes"/>
+    <fullyQualifiedTypeName name="java.awt.dnd.DropTargetAdapter"/>
+    <fullyQualifiedTypeName name="java.lang.Compiler"/>
+    <fullyQualifiedTypeName name="com.thirdware.additionalproblems.Complex"/>
+    <fullyQualifiedTypeName name="com.thirdware.additionalproblems.Average"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="com.thirdware.additionalproblems.MotorCycle"/>
+    <fullyQualifiedTypeName name="com.thirdware.additionalproblems.BiCycle"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>

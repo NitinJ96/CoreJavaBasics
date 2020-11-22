@@ -1,4 +1,4 @@
-package com.thirdware.multilevelInheritance;
+package com.thirdware.multilevelinheritanceandsuper;
 
 public class Vehicle {
 	private String name;

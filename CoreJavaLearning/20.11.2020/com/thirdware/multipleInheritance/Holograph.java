@@ -1,4 +1,4 @@
-package com.thirdware.multipleInheritance;
+package com.thirdware.multipleinheritance;
 
 public interface Holograph {
 	public void display3DImage();

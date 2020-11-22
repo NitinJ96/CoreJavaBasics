@@ -1,4 +1,4 @@
-package com.thirdware.multilevelInheritance;
+package com.thirdware.multilevelinheritanceandsuper;
 
 public class Car extends Vehicle {
 	private int wheels;
@@ -16,6 +16,11 @@ public class Car extends Vehicle {
         this.isManual = isManual;
         this.currentGear = 1;
     }
+    
+//    Car() {
+//    	
+//    }
+    
 
     public void changeGear(int currentGear) {
         this.currentGear = currentGear;
