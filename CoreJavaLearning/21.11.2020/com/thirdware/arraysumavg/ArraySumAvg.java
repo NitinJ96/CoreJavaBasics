@@ -9,7 +9,7 @@ public class ArraySumAvg {
 		for (int i = 0; i < array.length; i++) {
 			sum += array[i];
 		}
-		System.out.println("Sum of Array values: "+Arrays.toString(array)+" is: "+sum);
-		System.out.println("Average of Array values: "+Arrays.toString(array)+" is: "+(sum/array.length));
+		System.out.printf("Sum of Array values: "+Arrays.toString(array)+" is: %.2f",sum);
+		System.out.printf("\nAverage of Array values: "+Arrays.toString(array)+" is: %.2f",(sum/array.length));
 	}
 }
