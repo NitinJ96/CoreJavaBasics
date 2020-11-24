@@ -28,6 +28,21 @@
     <fullyQualifiedTypeName name="com.thirdware.additionalproblems.MotorCycle"/>
     <fullyQualifiedTypeName name="com.thirdware.additionalproblems.BiCycle"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="com.thirdware.customexception.MyException"/>
+    <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="java.lang.AssertionError"/>
+    <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="com.thirdware.coreconcept.Department"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.thirdware.coreconcept.Employee"/>
+    <fullyQualifiedTypeName name="com.thirdware.coreconcept.EmployeeFinancials"/>
+    <fullyQualifiedTypeName name="com.thirdware.coreconcept.PersonalInfo"/>
+    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.lang.ClassCastException"/>
 </qualifiedTypeNameHistroy>
