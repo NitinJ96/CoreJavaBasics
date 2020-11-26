@@ -1,11 +1,11 @@
-package com.thirdware.coreconcept;
+package com.thirdware.set;
 
 import java.util.Scanner;
 
 public class Main {
-
-	static Scanner scanner = new Scanner(System.in);
-	static Employee employee;
+	private static Scanner scanner = new Scanner(System.in);
+	private static Employee employee;
+	private static EmployeeSet employeeSet = new EmployeeSet();
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -30,9 +30,15 @@ public class Main {
 				addTax();
 				break;
 			case 4:
-				printEmployeeDetails();
+				printEmployeeSet();
 				break;
 			case 5:
+				removeEmployee();
+				break;
+			case 6:
+				printEmployee();
+				break;
+			case 7:
 				quit = true;
 				break;
 			}
@@ -45,9 +51,11 @@ public class Main {
 		System.out.println("\t 0 - To print choice options");
 		System.out.println("\t 1 - To add employee");
 		System.out.println("\t 2 - To increment the salary to 5%");
-		System.out.println("\t 3 - TO implement taxation on salary");
-		System.out.println("\t 4 - To print the Employee Details");
-		System.out.println("\t 5 - To quit the application");
+		System.out.println("\t 3 - To implement taxation on salary");
+		System.out.println("\t 4 - To print All Employee Details");
+		System.out.println("\t 5 - To remove Employee details");
+		System.out.println("\t 6 - To print Specific Employee details");
+		System.out.println("\t 7 - To quit the application");
 	}
 
 	public static void addEmployee() {
@@ -71,39 +79,42 @@ public class Main {
 		double monthlySalary = scanner.nextDouble();
 
 		employee = new Employee(name, id, gender, phone, address, monthlySalary, deptCode, deptName);
+		employeeSet.addEmployeeDetails(employee);
 
 	}
 
 	public static void addIncrement() {
-		try {
-			if (employee.getName() != null) {
-				EmployeeFinancials.incrementAnnualSalary(employee);
-				System.out.println("Employee details after incrementing salary:");
-				System.out.println(employee.toString());
-			}
-		} catch (NullPointerException e) {
-			// TODO: handle exception
-			System.out.println("No employee is present, please Enter the employee details");
+		System.out.print("Enter the name of Employee to increment Salary: ");
+		String name = scanner.nextLine();
+		if (employeeSet.incrementEmployeeSalary(name)) {
+			System.out.println(name+"'s Salary Incremented");
 		}
-
 	}
 
 	public static void addTax() {
-		try {
-			if (employee.getName() != null) {
-				EmployeeFinancials.calculateTax(employee);
-				System.out.println("Employee details after Taxation:");
-				System.out.println(employee.toString());
-			}
-		} catch (NullPointerException e) {
-			// TODO: handle exception
-			System.out.println("No employee is present, please Enter the employee details");
+		System.out.print("Enter the name of Employee to increment Salary: ");
+		String name = scanner.nextLine();
+		if (employeeSet.calculateTaxation(name)) {
+			System.out.println(name+"'s Taxation done");
 		}
-
 	}
 
-	public static void printEmployeeDetails() {
-		System.out.println(employee.toString());
+	public static void removeEmployee() {
+		System.out.print("Enter the Employee Name to be removed: ");
+		String name = scanner.nextLine();
+		if(employeeSet.removeEmployeeDetails(name)) {
+			System.out.println(name+" details Removed");
+		}
+	}
+	
+	public static void printEmployee() {
+		System.out.print("Enter the name of to employee to display Details: ");
+		String name = scanner.nextLine();
+		employeeSet.printSpecificEmployee(name);
+	}
+
+	public static void printEmployeeSet() {
+		employeeSet.printEmployeeSet();
 	}
 
 }

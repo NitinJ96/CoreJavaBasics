@@ -1,8 +1,0 @@
-package com.thirdware.day2.assignment;
-
-public class Triangle extends Shape {
-
-	public double getArea() {
-		return getLength()*getBreadth()/2;
-	}
-}

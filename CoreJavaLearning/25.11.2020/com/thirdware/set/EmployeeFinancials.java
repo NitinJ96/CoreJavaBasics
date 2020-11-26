@@ -1,7 +1,6 @@
-package com.thirdware.coreconcept;
+package com.thirdware.set;
 
 public class EmployeeFinancials {
-
 	public static void incrementAnnualSalary(Employee employee) {
 		double AnnualSalary = employee.getMonthlySalary() * 12;
 		double increment = AnnualSalary * 5 / 100;
@@ -23,5 +22,4 @@ public class EmployeeFinancials {
 			employee.UpdateSalary(AnnualSalary / 12);
 		}
 	}
-
 }

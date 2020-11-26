@@ -1,4 +1,4 @@
-package com.thirdware.coreconcept;
+package com.thirdware.set;
 
 public class Department {
 	private int deptCode;

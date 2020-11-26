@@ -1,4 +1,4 @@
-package com.thirdware.coreconcept;
+package com.thirdware.set;
 
 public class PersonalInfo {
 	private int id;
@@ -28,5 +28,4 @@ public class PersonalInfo {
 	public char getGender() {
 		return gender;
 	}
-
 }
