@@ -1,4 +1,4 @@
-package lambdaExpression;
+package com.thirdware.lambdaExpression;
 
 import java.util.ArrayList;
 import java.util.List;
