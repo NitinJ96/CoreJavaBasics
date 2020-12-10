@@ -1,25 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.thirdware.arraylist.Grocery"/>
-    <fullyQualifiedTypeName name="com.thirdware.arraylist.GroceryList"/>
-    <fullyQualifiedTypeName name="com.thirdware.maps.PersonalInfo"/>
-    <fullyQualifiedTypeName name="com.thirdware.map.StudentMap"/>
-    <fullyQualifiedTypeName name="java.util.Map"/>
-    <fullyQualifiedTypeName name="java.util.Map.Entry"/>
-    <fullyQualifiedTypeName name="com.thirdware.map.Student"/>
-    <fullyQualifiedTypeName name="java.lang.Exception"/>
-    <fullyQualifiedTypeName name="java.util.Random"/>
-    <fullyQualifiedTypeName name="com.thirdware.tennisplayer.PlayerNotFoundException"/>
-    <fullyQualifiedTypeName name="com.thirdware.tennisplayer.PlayerCareer"/>
-    <fullyQualifiedTypeName name="com.thirdware.tennisplayer.PlayerRankingLinkedHashSet"/>
-    <fullyQualifiedTypeName name="com.thirdware.tennisplayer.PlayerCodeLinkedHashSet"/>
-    <fullyQualifiedTypeName name="java.util.TreeSet"/>
-    <fullyQualifiedTypeName name="com.thirdware.tennisplayer.TennisPlayer"/>
-    <fullyQualifiedTypeName name="com.thirdware.tennisplayer.PlayerRankingList"/>
-    <fullyQualifiedTypeName name="com.thirdware.comparator.Bus"/>
-    <fullyQualifiedTypeName name="java.util.LinkedHashMap"/>
-    <fullyQualifiedTypeName name="java.lang.Comparable"/>
-    <fullyQualifiedTypeName name="com.thirdware.comparator.SortByName"/>
     <fullyQualifiedTypeName name="com.thirdware.comparator.SortByID"/>
     <fullyQualifiedTypeName name="com.thirdware.comparator.SortByDuration"/>
     <fullyQualifiedTypeName name="java.util.Collection"/>
@@ -44,7 +24,6 @@
     <fullyQualifiedTypeName name="com.thirdware.fileinputoutput.CSVReadWriteUpdate"/>
     <fullyQualifiedTypeName name="java.util.HashSet"/>
     <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthOptionPaneUI"/>
-    <fullyQualifiedTypeName name="java.util.Comparator"/>
     <fullyQualifiedTypeName name="java.util.Collections"/>
     <fullyQualifiedTypeName name="com.thirdware.fileinputoutput.SortByEmployeeID"/>
     <fullyQualifiedTypeName name="com.thirdware.fileinputoutput.SortByEmployeeName"/>
@@ -52,7 +31,6 @@
     <fullyQualifiedTypeName name="com.thirdware.fileinputoutput.SortByManagerID"/>
     <fullyQualifiedTypeName name="com.thirdware.fileinputoutput.SortByGrossSalary"/>
     <fullyQualifiedTypeName name="com.thirdware.fileinputoutput.SortByExperience"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
     <fullyQualifiedTypeName name="com.thirdware.set.EmployeeSet"/>
     <fullyQualifiedTypeName name="java.util.Set"/>
@@ -60,4 +38,26 @@
     <fullyQualifiedTypeName name="java.util.LinkedHashSet"/>
     <fullyQualifiedTypeName name="com.thirdware.fileinputoutput.Employee"/>
     <fullyQualifiedTypeName name="com.thirdware.fileinputoutput.EmployeeLinkedHashSet"/>
+    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.lang.NoClassDefFoundError"/>
+    <fullyQualifiedTypeName name="java.sql.Statement"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="com.thirdware.sqlconnectionjdbc.ConnectionJDBC"/>
+    <fullyQualifiedTypeName name="java.util.Properties"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
+    <fullyQualifiedTypeName name="java.lang.Comparable"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="com.thirdware.tennisplayer.sortByCurrentRanking"/>
+    <fullyQualifiedTypeName name="com.thirdware.tennisplayer.sortByPlayerName"/>
+    <fullyQualifiedTypeName name="com.thirdware.tennisplayer.PlayerCodeLinkedHashSet"/>
+    <fullyQualifiedTypeName name="com.thirdware.tennisplayer.PlayerNotFoundException"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.thirdware.tennisplayer.TennisPlayer"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
 </qualifiedTypeNameHistroy>

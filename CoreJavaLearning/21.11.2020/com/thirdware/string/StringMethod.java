@@ -1,6 +1,5 @@
 package com.thirdware.string;
 
-import java.security.DrbgParameters.NextBytes;
 import java.util.Scanner;
 
 public class StringMethod {

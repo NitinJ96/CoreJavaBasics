@@ -56,6 +56,7 @@ public class EmployeeLinkedHashSet {
 					employeeManagerChange.setManagerEmpID(emp.getEmployeeID());
 				}
 			}
+			System.out.println("====================Printing Employee Data after Changing the Manager Name=============");
 			printEmployee();
 		} else {
 			System.out.println("Employee List Empty - Press 1 to add data to Employee List");

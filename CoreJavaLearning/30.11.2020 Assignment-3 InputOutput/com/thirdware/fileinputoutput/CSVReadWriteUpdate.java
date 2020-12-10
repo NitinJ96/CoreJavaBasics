@@ -99,7 +99,7 @@ public class CSVReadWriteUpdate {
 
 			try {
 				FileWriter fileWriter = new FileWriter(
-						"C:\\Users\\nitin\\Desktop\\Thirdware Training\\JavaAssignmentFiles\\temp.csv");
+						"C:\\Users\\nitin\\Desktop\\Thirdware Training\\JavaAssignmentFiles\\Employee.csv");
 				BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
 				PrintWriter printWriter = new PrintWriter(bufferedWriter);
 				printWriter.append(FILE_HEADER + NEW_LINE_SEPARATOR);
@@ -136,7 +136,7 @@ public class CSVReadWriteUpdate {
 
 			try {
 				FileWriter fileWriter = new FileWriter(
-						"C:\\Users\\nitin\\Desktop\\Thirdware Training\\JavaAssignmentFiles\\temp.csv");
+						"C:\\Users\\nitin\\Desktop\\Thirdware Training\\JavaAssignmentFiles\\Employee.csv");
 				BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
 				PrintWriter printWriter = new PrintWriter(bufferedWriter);
 				printWriter.append(FILE_HEADER + NEW_LINE_SEPARATOR);

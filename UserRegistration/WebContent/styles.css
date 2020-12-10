@@ -1,0 +1,45 @@
+@charset "ISO-8859-1";
+body{
+	background : #00a1ab;
+	color : #FFFFFF;
+	text-align: center;
+}
+
+/*Heading Tags*/
+h1{
+	margin : 75px 50px 10px;
+}
+
+h2{
+	
+}
+
+.container{
+	padding: 20px;
+	background : #00263b;
+	margin : 50px 500px 50px;
+	text-align: center;
+	justify-content: flex-start;
+}
+
+/*Form Elements*/
+.name,.phone,.email{
+	padding: 10px;
+	margin: 10px;
+}
+
+#value{
+	text-align: left;
+}
+
+.button{
+	color: #ffffff; /* Text color */
+ 
+	background-color: transparent; /* Remove background color */
+ 
+	border: 3px solid #ffffff; /* Border thickness, line style, and color */
+ 
+	border-radius: 5px; /* Adds curve to border corners */
+	padding: 5px;
+
+}
